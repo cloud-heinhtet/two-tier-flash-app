@@ -8,6 +8,7 @@ sudo apt install ansible -y
 sudo apt install git -y 
 mkdir Ansible && cd Ansible
 pwd
-git clone https://github.com/Aj7Ay/ANSIBLE.git
-cd ANSIBLE
-ansible-playbook -i localhost DevSecOps.yml
+
+git clone https://github.com/cloud-heinhtet/devops-tools-setup
+cd devops-tools-setup
+ansible-playbook -i localhost devops-tools-setup.yaml
